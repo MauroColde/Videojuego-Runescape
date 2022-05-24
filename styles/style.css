@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+nav {
+  background-color: rgb(82, 58, 15, 70%);
+  text-align: end;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 25px;
+  margin-bottom: 10px;    
+}
+
+.logInIndex {
+  color:white;
+  font-size: 20px;
+}
+
+body {
+  background-image: url(/imagenes/fondoIndex.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  
+}
+
+header {
+  text-align: center;
+}
+
+aside {
+  text-align: center;
+}
+
+.tituloIntro {
+  text-align: center;
+  color: white;
+  background-color: rgb(24, 12, 4);
+  width: 100%;
+/*   padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-top: 50px; */
+}
+
+h5 {
+  font-size: medium;
+  color: rgb(42, 2, 75);
+}
+
+.tituloJuego {
+  width: 94%;
+  background-color: rgb(92, 60, 45, 80 );
+  padding: 6px;
+  border-radius: 6px;
+  color: white;
+}
+
+.titulo-video {
+  margin-bottom: 0px !important;
+}
+
+.bienvenida {
+  background-image: url(/imagenes/fondoBienvenida.webp);
+/*   margin-top: 40px;
+  margin-left: 400px;
+  margin-right:400px;
+  padding-bottom: 45px; */
+  width: 75%;
+  text-align: center;
+  font-size: larger;
+  border-radius: 10px;
+  color: rgb(26, 4, 4);
+}
+
+p {
+  color: black;
+}
+
+.tituloBienvenida {
+  background-color: rgb(56, 26, 4, 0.8);
+  color: rgb(255, 255, 255);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: larger;
+  border-radius: 10px;
+}
+
+.textoBienvenida {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  color: black;
+  font-family:'Arial Narrow Bold';
+  font-weight: bold;
+}
+
+footer {
+  background-image: url(/imagenes/fondoFotter.png);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: rgba(225, 231, 231, 0.3);
+  text-align: center;
+  gap: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: beige;
+}
+
+
+@media(max-width:768px){
+  .banner {
+  width: 100%;
+  height: auto;
+  } 
+  .video {
+    width: 90%;
+    height: auto;
+  }
+  .caja {
+    margin: 15px;
+  }
+  .tituloIntro {
+    width: 90%;
+  }
+  .bienvenida {
+    width: 90%;
+    font-size: small;
+  }
+  .tituloJuego {
+    font-size: medium;
+  }
+}
